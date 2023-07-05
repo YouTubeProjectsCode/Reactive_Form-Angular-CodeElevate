@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+
+<form [formGroup]="reactiveForm">
+  <input type="text" name="name" id="name" formControlName="name">
+  <input type="email" name="email" id="email" formControlName="email">
+  <button type="button" (click)="submit()">Submit</button>
+</form>
